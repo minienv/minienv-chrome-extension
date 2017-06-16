@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "exampleup",
+  "description": "",
+  "version": "1.0",
+  "background":{
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "declarativeContent",
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "page_action": {
+    "default_title": "Deploy to exampleup",
+    "default_icon": "icon.png"
+  }  
+}
