@@ -14,6 +14,6 @@ chrome.runtime.onInstalled.addListener(function() {
    });
 });
 chrome.pageAction.onClicked.addListener(function(tab){
-  var url = "http://exampleup.com:32155?repo=" + encodeURIComponent(tab.url);
+  var url = "http://exampleup.com:31111?repo=" + encodeURIComponent(tab.url);
   chrome.tabs.create({url: url});
 });
